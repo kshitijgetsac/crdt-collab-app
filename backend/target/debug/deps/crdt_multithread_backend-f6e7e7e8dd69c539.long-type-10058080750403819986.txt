@@ -1,0 +1,1 @@
+fn(actix_web::web::Data<Arc<tokio::sync::Mutex<HashMap<std::string::String, DocState>>>>, actix_web::web::Data<redis::Client>, actix_web::web::Data<Database>, actix_web::web::Path<std::string::String>) -> impl futures_util::Future<Output = impl Responder> {get_doc}: HttpServiceFactory
